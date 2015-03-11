@@ -97,10 +97,7 @@ Exercises.special1 = function () {
 Exercises.special2 = function () {
 
   // Use the console to divide a number by zero.
-
-  // 
-  return Infinity
-  ;
+  return Infinity;
 
 };
 
@@ -108,7 +105,6 @@ Exercises.special2 = function () {
 Exercises.special3 = function () {
 
   // Use the console to subtract Infinity from Infinity ;
-
  return NaN;
 };
 
@@ -116,7 +112,6 @@ Exercises.special3 = function () {
 Exercises.special4 = function () {
 
   // Use the console to divide a number by Infinity.
-
   return 0 ;
 
 };
