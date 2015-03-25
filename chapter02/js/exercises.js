@@ -261,6 +261,7 @@ Exer.return5 = function () {
   // Declare and initialize a variable for the first string.
   var result1 = strShift("abcABC123!@#");
   // Declare and initialize a variable for the second string.
+  var result3 = strShift(strShift("a S d F j K l"));
 
 
   var result3 = strShift(strShift("a S d F j K l"));
