@@ -505,6 +505,7 @@ Exer.doWhile2 = function () {
   trainNum++ ;
 };
 /* jshint ignore:end */ 
+
 /*---------------------------    INDENTING CODE    ---------------------------*/
 
 // Indenting 1
