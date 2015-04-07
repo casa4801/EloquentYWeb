@@ -55,4 +55,3 @@ describe("Chess Board exercise", function() {
   });
 
 });
-
