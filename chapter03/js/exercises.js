@@ -13,6 +13,9 @@ Exer.defining = function () {  // do not remove or alter
 // Use a function expression to define a function named `three`.
 // That function should return the value 3.
 
+var three = function(){
+  return 3;
+}
 
 
 /******************************    DEFINING 2    ******************************/
