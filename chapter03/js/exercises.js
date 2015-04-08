@@ -23,15 +23,22 @@ var three = function(){
 // `myLog` should accept one parameter named `message`.
 // `myLog` should output `message` to the console with the appropriate
 //     formatting.
-
+  var myLog = function(message) {
+    console.log("The Log Says: " + message); 
+    // body...
+  }
 
 
 /******************************    DEFINING 3    ******************************/
 // Use a function expression to define a function named `square`.
 // `square` should accept one parameter named `number`.
 // The function should square the number and both log and return the result.
-
-
+var square = function  (number) {
+  number = number * number;
+  console.log( number);
+  return number;
+  // body...
+}
 
 //==========================//
   Exer.defining1 = three;   //
