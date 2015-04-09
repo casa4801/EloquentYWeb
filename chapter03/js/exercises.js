@@ -85,6 +85,13 @@ var spaceCubeDetector = function(length, width, height){
 Exer.parameters2 = function(spaceCubeDetector) {  //
 //================================================//
 
+var result = spaceCubeDetector(3,5, 3.14159265359);
+console.log(result);
+ var result1 = spaceCubeDetector(7,7, 7);
+console.log(result1);
+var result2 = spaceCubeDetector(1,2,3);
+console.log(result2) ;
+
 
 
 };  // wrapper end
