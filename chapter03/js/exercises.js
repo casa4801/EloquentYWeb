@@ -136,23 +136,25 @@ Exer.scopeExample = function() {
 //  Write your answers in this section
 
 Exer.scope1 = function() {
-  return /* return value for Scope 1 */ ;
+
+  return 5 ;
 };
 
 Exer.scope2 = function() {
-  return /* return value for Scope 2 */ ;
+  return 35 ;
 };
 
 Exer.scope3 = function() {
-  return /* return value for Scope 3 */ ;
+  return 7 ;
 };
 
 Exer.scope4 = function() {
-  return /* return value for Scope 4 */ ;
+  return 7 ;
+   
 };
 
 Exer.scope5 = function() {
-  return /* return value for Scope 5 */ ;
+  return 35 ;
 };
 
 
