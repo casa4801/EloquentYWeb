@@ -1,3 +1,4 @@
+
 // Student Workspace
 Chess.start = function (n) {
 	if (n === 0)

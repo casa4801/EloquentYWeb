@@ -1,3 +1,5 @@
+
+
 // Chapter 3
 
 /*******************************************************************************
@@ -138,6 +140,7 @@ Exer.scopeExample = function() {
 Exer.scope1 = function() {
 
   return 5 ;
+  bar = 2;
 };
 
 Exer.scope2 = function() {
@@ -210,7 +213,7 @@ Exer.nestExample = function() {
 
     robin();
 
-    console.log(quux); // Nest 12: What value of quux is logged?
+      console.log(quux); // Nest 12: What value of quux is logged?
 
     if (batman()) {
       console.log(foo); // Nest 13: What value of foo is logged?
@@ -235,58 +238,58 @@ Exer.nestExample = function() {
 //  Write your answers in this section.
 
 Exer.nest1 = function() {
-  return /* answer for Nest 1 */ ;
+  return  2 ;
 };
 Exer.nest2 = function() {
-  return /* answer for Nest 2 */ ;
+  return 5 ;
 };
 Exer.nest3 = function() {
-  return /* answer for Nest 3 */ ;
+  return 7 ;
 };
 Exer.nest4 = function() {
-  return /* answer for Nest 4 */ ;
+  return 11 ;
 };
 Exer.nest5 = function() {
-  return /* answer for Nest 5 */ ;
+  return 7 ;
 };
 Exer.nest6 = function() {
-  return /* answer for Nest 6 */ ;
+  return 11 ;
 };
 Exer.nest7 = function() {
-  return /* answer for Nest 7 */ ;
+  return 7 ;
 };
 Exer.nest8 = function() {
-  return /* answer for Nest 8 */ ;
+  return 17 ;
 };
 Exer.nest9 = function() {
-  return /* answer for Nest 9 */ ;
+  return 17 ;
 };
 Exer.nest10 = function() {
-  return /* answer for Nest 10 */ ;
+  return 17 ;
 };
 Exer.nest11 = function() {
-  return /* answer for Nest 11 */ ;
+  return 13 ;
 };
 Exer.nest12 = function() {
-  return /* answer for Nest 12 */ ;
+  return 13 ;
 };
 Exer.nest13 = function() {
-  return /* answer for Nest 13 */ ;
+  return 0 ;
 };
 Exer.nest14 = function() {
-  return /* answer for Nest 14 */ ;
+  return 0 ;
 };
 Exer.nest15 = function() {
-  return /* answer for Nest 15 */ ;
+  return 0 ;
 };
 Exer.nest16 = function() {
-  return /* answer for Nest 16 */ ;
+  return 2 ;
 };
 Exer.nest17 = function() {
-  return /* answer for Nest 17 */ ;
+  return 5 ;
 };
 Exer.nest18 = function() {
-  return /* answer for Nest 18 */ ;
+  return 0 ;
 };
 
 /*******************************************************************************
