@@ -98,9 +98,7 @@ Exercises.special2 = function () {
 
   // Use the console to divide a number by zero.
 
-  // 
-  return Infinity
-  ;
+  return Infinity;
 
 };
 

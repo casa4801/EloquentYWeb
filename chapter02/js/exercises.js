@@ -270,6 +270,12 @@ Exer.return5 = function () {
 
   var result3 = strShift(strShift("a S d F j K l"));
 
+<<<<<<< HEAD
+=======
+
+  var result3 = strShift(strShift("a S d F j K l"));
+
+>>>>>>> chapter03
   // A return statement.
   return strShuffle(result1,result3);
 
@@ -488,6 +494,26 @@ Exer.doWhile1 = function () {
 // Recreate the code in the function without a loop
 Exer.doWhile2 = function () {
   var trainNum = 1;
+<<<<<<< HEAD
+=======
+
+  console.log("Train# " + trainNum + ": In flight!?");
+  trainNum++ ;
+  console.log("Train# " + trainNum + ": In flight!?");
+  trainNum++ ;
+  console.log("Train# " + trainNum + ": In flight!?");
+  trainNum++ ;
+  console.log("Train# " + trainNum + ": In flight!?");
+  trainNum++ ;
+  console.log("Train# " + trainNum + ": In flight!?");
+  trainNum++ ;
+  console.log("Train# " + trainNum + ": In flight!?");
+  trainNum++ ;
+  console.log("Train# " + trainNum + ": In flight!?");
+  trainNum++ ;
+};
+/* jshint ignore:end */ 
+>>>>>>> chapter03
 
   console.log("Train# " + trainNum + ": In flight!?");
   trainNum++ ;

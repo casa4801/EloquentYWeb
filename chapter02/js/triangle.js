@@ -1,4 +1,4 @@
-// Student Workspace
+m// Student Workspace
 
 Triangle.start = function () {
 	var line = '#';

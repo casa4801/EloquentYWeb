@@ -1,3 +1,5 @@
+
+
 // Chapter 3
 
 /*******************************************************************************
@@ -58,10 +60,17 @@ var square = function  (number) {
 // `parameters1` should return `spaceCubeDetector`
 
 Exer.parameters1 = function() {
+var spaceCubeDetector = function(length, width, height){
 
+  if(length === width && width === height && height != null){
+      return "SPACE CUBE DETECTED!!";
+    } else {
+      return "THIS IS NO SPACE CUBE!";
+    }
+  }
+    return spaceCubeDetector;
 
-
- };  // end Exer.parameters1
+};  // end Exer.parameters1
 
 
 
@@ -77,6 +86,13 @@ Exer.parameters1 = function() {
 //================================================//
 Exer.parameters2 = function(spaceCubeDetector) {  //
 //================================================//
+
+var result = spaceCubeDetector(3,5, 3.14159265359);
+console.log(result);
+ var result1 = spaceCubeDetector(7,7, 7);
+console.log(result1);
+var result2 = spaceCubeDetector(1,2,3);
+console.log(result2) ;
 
 
 
@@ -122,23 +138,26 @@ Exer.scopeExample = function() {
 //  Write your answers in this section
 
 Exer.scope1 = function() {
-  return /* return value for Scope 1 */ ;
+
+  return 5 ;
+  bar = 2;
 };
 
 Exer.scope2 = function() {
-  return /* return value for Scope 2 */ ;
+  return 35 ;
 };
 
 Exer.scope3 = function() {
-  return /* return value for Scope 3 */ ;
+  return 7 ;
 };
 
 Exer.scope4 = function() {
-  return /* return value for Scope 4 */ ;
+  return 7 ;
+   
 };
 
 Exer.scope5 = function() {
-  return /* return value for Scope 5 */ ;
+  return 35 ;
 };
 
 
@@ -194,7 +213,7 @@ Exer.nestExample = function() {
 
     robin();
 
-    console.log(quux); // Nest 12: What value of quux is logged?
+      console.log(quux); // Nest 12: What value of quux is logged?
 
     if (batman()) {
       console.log(foo); // Nest 13: What value of foo is logged?
@@ -219,58 +238,58 @@ Exer.nestExample = function() {
 //  Write your answers in this section.
 
 Exer.nest1 = function() {
-  return /* answer for Nest 1 */ ;
+  return  2 ;
 };
 Exer.nest2 = function() {
-  return /* answer for Nest 2 */ ;
+  return 5 ;
 };
 Exer.nest3 = function() {
-  return /* answer for Nest 3 */ ;
+  return 7 ;
 };
 Exer.nest4 = function() {
-  return /* answer for Nest 4 */ ;
+  return 11 ;
 };
 Exer.nest5 = function() {
-  return /* answer for Nest 5 */ ;
+  return 7 ;
 };
 Exer.nest6 = function() {
-  return /* answer for Nest 6 */ ;
+  return 11 ;
 };
 Exer.nest7 = function() {
-  return /* answer for Nest 7 */ ;
+  return 7 ;
 };
 Exer.nest8 = function() {
-  return /* answer for Nest 8 */ ;
+  return 17 ;
 };
 Exer.nest9 = function() {
-  return /* answer for Nest 9 */ ;
+  return 17 ;
 };
 Exer.nest10 = function() {
-  return /* answer for Nest 10 */ ;
+  return 17 ;
 };
 Exer.nest11 = function() {
-  return /* answer for Nest 11 */ ;
+  return 13 ;
 };
 Exer.nest12 = function() {
-  return /* answer for Nest 12 */ ;
+  return 13 ;
 };
 Exer.nest13 = function() {
-  return /* answer for Nest 13 */ ;
+  return 0 ;
 };
 Exer.nest14 = function() {
-  return /* answer for Nest 14 */ ;
+  return 0 ;
 };
 Exer.nest15 = function() {
-  return /* answer for Nest 15 */ ;
+  return 0 ;
 };
 Exer.nest16 = function() {
-  return /* answer for Nest 16 */ ;
+  return 2 ;
 };
 Exer.nest17 = function() {
-  return /* answer for Nest 17 */ ;
+  return 5 ;
 };
 Exer.nest18 = function() {
-  return /* answer for Nest 18 */ ;
+  return 0 ;
 };
 
 /*******************************************************************************
