@@ -92,7 +92,7 @@ describe("Parameters and Scopes exercises", function() {
     beforeAll(function() {
       spyOn(Exer, 'spaceCubeDetector').and.callThrough();
       spyOn(console, 'log').and.callThrough();
-      Exer.parameters2(Exer.spaceCubeDetector).and.callThrough();
+      Exer.parameters2(Exer.spaceCubeDetector);
     });
 
     it("should run the given spaceCubeDetector function with the arguments length => 3, width => 5, and height => 3.14159265359 and log the return", function() {
@@ -151,7 +151,7 @@ describe("Parameters and Scopes exercises", function() {
   });
   describe("Scope 4", function() {
     it("should have the correct answer", function() {
-      expect( Exer.scope4() === 4 ).toBeTruthy();
+      expect( Exer.scope4() === 7 ).toBeTruthy();
     });
   });
   describe("Scope 5", function() {
@@ -217,7 +217,7 @@ describe("Nested Scope exercises", function() {
   console.log(bar); // Nest 2: What value of bar is logged?
   console.log(quux); // Nest 3: What value of quux is logged?
 
-  nest(5318008);
+  nest(19);
 
   console.log(foo); // Nest 16: What value of foo is logged?
   console.log(bar); // Nest 17: What value of bar is logged?
